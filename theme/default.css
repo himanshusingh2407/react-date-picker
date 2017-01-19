@@ -106,7 +106,8 @@
 
 .react-date-picker__year-view--theme-default {
   border: 1px solid gray;
-  padding: 2px; }
+  padding: 2px;
+  min-height: 112px; }
   .react-date-picker__year-view--theme-default .react-date-picker__year-view-month {
     padding: 5px;
     cursor: pointer;

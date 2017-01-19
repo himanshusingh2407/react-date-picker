@@ -1,7 +1,10 @@
 .react-date-picker__decade-view {
   box-sizing: border-box;
   outline: none;
-
+  min-height: 72px;
+  .dp-row {
+  min-height: 36px; }
+  
   *,
   *:before,
   *:after {

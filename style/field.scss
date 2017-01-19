@@ -34,6 +34,12 @@
   outline: none;
 }
 
+.react-date-field__input::-ms-clear {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
 .react-date-field__calendar-icon {
   border: 3px solid gray;
   border-top-width: 5px;
